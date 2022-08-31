@@ -21,20 +21,31 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="130dp"
+            android:layout_width="110dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:textSize="11sp"
             android:onClick="calculate"
             android:text="Calculate" />
 
         <Button
             android:id="@+id/button1"
-            android:layout_width="130dp"
+            android:layout_width="110dp"
             android:layout_height="60dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="15dp"
+            android:textSize="11sp"
             android:onClick="reset"
             android:text="RESET" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:text="ANALYZE"
+            android:textSize="11sp"
+            android:onClick="analyze"/>
     </LinearLayout>
 
     <TextView

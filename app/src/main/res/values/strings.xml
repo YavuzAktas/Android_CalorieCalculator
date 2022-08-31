@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Calorie Calculator</string>
+    <string name="col1">Actvity Level</string>
+    <string name="col2">Calori</string>
 </resources>
